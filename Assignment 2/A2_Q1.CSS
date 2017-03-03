@@ -1,0 +1,100 @@
+.main{
+background-image:url(plane1.jpg);
+background-repeat: repeat;
+width:100%;
+height:100%;
+position:relative;
+margin: 0;
+padding: 0;
+}
+
+.box {
+border:10px solid lightskyblue;
+color:lightskyblue;
+text-align: center;
+line-height: 90px ;
+font-size: 30px;
+font-style: oblique;
+background:aliceblue;
+background: linear-gradient(to right, aliceblue, lightcyan);
+padding:10px;
+height: 90px;
+width: 25%;
+margin: 17px;
+}
+
+.table {
+    border: 15px dotted royalblue;
+    width: 50%;
+    height: 67%;
+    position: relative;  
+}
+.table tr th{
+    background-color: aliceblue;
+    color: midnightblue;
+    padding: 10px;
+    width: 1%;  
+}
+
+.table tr{
+    color:black;
+    list-style: upper-roman;
+    font-size: 16px;
+  
+}
+
+.first{
+    border-style: solid;
+    border-color: red;
+    background-color: blue;   
+    
+}
+
+.second{
+    border-style: solid;
+    border-color: black;
+    background-color: red;   
+    
+}
+
+.third{
+    border-style: solid;
+    border-color: #0073e6;
+    background-color: #99ccff;   
+    
+}
+.fourth{
+    border-style: solid;
+    border-color: #0033cc;
+    background-color: #4d79ff;       
+}
+
+.list ol{
+    list-style-type:armenian;
+}
+.france {
+    list-style-type: none;
+    padding-left: 1.5em;
+    background-image: url(france.png);
+    background-size: 1em;
+    background-repeat: no-repeat;
+}
+.a {
+    list-style-type: circle;
+    color:white;
+}
+
+.germany {
+    list-style-type: none;
+    padding-left: 1.5em;
+    background-image: url(flag.png);
+    background-size: 1em;
+    background-repeat: no-repeat;
+}
+.b {
+    list-style-type: square;
+    color:yellow;
+}
+
+
+
