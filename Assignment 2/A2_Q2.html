@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--Assignment 2  
+// Written by: Berfin Saricam 40017210 
+// For SOEN 287 Section W – Winter 2017-->
+
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <title>Counter System</title>
+    </head>
+<body>
+    <h1>Welcome to Counter System</h1>
+    
+<script>
+function myFunction() {
+    var numbs= [4];
+    var neg=0;
+    var pos=0;
+    var zero=0;
+    //will prompt user to enter integer 
+    numbs[0]= prompt("Enter first integer: ")
+    numbs[1]= prompt("Enter second integer: ")
+    numbs[2]= prompt("Enter third integer: ")
+    numbs[3]= prompt("Enter fourth integer: ")
+    
+    for (i=0; i<4; i++){
+        if (numbs[i]>0){
+            pos++;
+        }else if (numbs[i]<0){
+            neg++;
+            
+        }else if (numbs[i]==0){
+            zero++;
+        }
+            
+    }
+    document.writeln("Zeroes entered by the user = "+zero+"<br/>");
+    document.writeln("Positive numbers entered by the user = "+pos+ "<br/>");
+    document.writeln("Negative numbers entered by the user = "+neg+ "<br/>");
+    
+            
+}
+    myFunction();
+</script>
+
+</body>
+</html>
